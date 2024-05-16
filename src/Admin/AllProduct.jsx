@@ -43,7 +43,7 @@ function AllProduct() {
         <td data-label="Image">
           <img src={product.imgUrl} alt={product.title} className="product-image" />
         </td>
-        <td data-label="Title">{product.title}</td>
+        <td data-label="Title">{product.productName}</td>
         <td data-label="Category">{product.category}</td>
         <td data-label="Price">${product.price}</td>
         <td data-label="Actions">

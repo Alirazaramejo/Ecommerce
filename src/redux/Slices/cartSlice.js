@@ -17,7 +17,7 @@ const cartSlice = createSlice({
       if (!existingItem) {
         state.cartItem.push({
           id: newItem.id,
-          productName: newItem.title,
+          productName: newItem.productName,
           imgUrl: newItem.imgUrl,
           price: newItem.price,
           quantity: 1,
@@ -25,7 +25,7 @@ const cartSlice = createSlice({
         });
       } else {
         existingItem.quantity++;
-        existingItem.totalPrice += Number(newItem.price);
+        existingItem.totalPrice = Number(newItem.price);
       }
       state.totalAmount = state.cartItem.reduce((total, item) => total + Number(item.totalPrice) * Number(item.quantity), 0);
       console.log(state.totalQuantity)
