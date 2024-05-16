@@ -1,0 +1,133 @@
+.hero__section{
+    background:  var(--hero-bg);
+}
+
+  .hero__Contact h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+  }
+  .hero__Contact p{
+    color: var(--primary-color);
+    line-height: 28px;
+    
+  }
+  .hero__section p:nth-child(1){
+    font-weight: 500;
+  }
+    
+  .buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-decoration: none;
+  }
+
+    .buy__btn a:hover{
+      color: #fff;
+    }
+  .hero__Contact {
+   
+    padding-top: 45px;
+  }
+  
+  .hero__subtitle {
+    /* Add your CSS styles for the hero subtitle here */
+  }
+  
+  .hero__img {
+    /* Add your CSS styles for the hero image here */
+  }
+.timer__count{
+  background: var(--primary-color);
+  height: 300px;
+}
+.timer__count img{
+  width: 70%!important;
+  height: 70%!important;
+object-fit: contain;
+}
+.buy__btn a{
+  text-decoration: none;
+ 
+}
+.store__btn{
+  background: #fff;
+  
+}
+.store__btn a{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.store__btn a:hover{
+  color: var(--primary-color);
+}
+@media only screen and (max-width:768px) {
+
+  .hero__Contact h2{
+    font-size: 1.6rem;
+  }
+  .hero__Contact p{
+    font-size: 0.9rem;
+  }
+  .hero__section p:nth-child(1){
+    font-size: 0.9rem;
+  }
+  .buy__btn {
+    font-size: 0.9rem;
+  }
+  .hero__Contact {
+    padding-top: 20px;
+  }
+  .timer__count{
+    height: 200px;
+  }
+  .timer__count img{
+    width: 50%!important;
+    height: 50%!important;
+  }
+  .store__btn{
+    margin-top: 20px;
+  }
+  .store__btn a{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width:576px){
+  .hero__Contact h2{
+    font-size: 1.4rem;
+  }
+  .hero__Contact p{
+    font-size: 0.8rem;
+  }
+  .hero__section p:nth-child(1){
+    font-size: 0.8rem;
+  }
+  .buy__btn {
+    font-size: 0.8rem;
+  }
+  .hero__Contact {
+    padding-top: 20px;
+  }
+  .timer__count{
+    height: 200px;
+  }
+  .timer__count img{
+    width: 50%!important;
+    height: 50%!important;
+  }
+  .store__btn{
+    margin-top: 20px;
+  }
+  .store__btn a{
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,60 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+}
+
+.footer__text {
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.735);
+}
+
+.footer__quick__link ul li {
+    background: transparent!important;
+}
+
+.footer__quick__link ul li a {
+    color: rgba(255, 255, 255, 0.735);
+    text-decoration: none;
+}
+
+.quick__link__title {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.1rem; /* Corrected typo: font-size */
+}
+
+.footer__Content li {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.735);
+}
+
+.footer__Content li span {
+    margin-right: 10px; /* Added margin-right for spacing between icon and text */
+    color: rgba(255, 255, 255, 0.735);
+    font-size: 1.2rem; /* Corrected typo: font-size */
+}
+
+@media only screen and (max-width:768px) {
+    .footer__quick__link ul li a {
+        font-size: 0.9rem; /* Corrected typo: font-size */
+    }
+    .quick__link__title {
+        font-size: 1rem; /* Corrected typo: font-size */
+    }
+    .footer__Content li span {
+        font-size: 1rem; /* Corrected typo: font-size */
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .footer__quick__link ul li a {
+        font-size: 0.8rem; /* Corrected typo: font-size */
+    }
+    .quick__link__title {
+        font-size: 0.9rem; /* Corrected typo: font-size */
+    }
+    .footer__Content li span {
+        font-size: 0.9rem; /* Corrected typo: font-size */
+    }
+}

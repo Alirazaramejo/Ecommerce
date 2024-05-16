@@ -1,0 +1,91 @@
+/* Styles for Add Product Section */
+.add-product-section {
+  padding: 50px 0;
+  background-color: #fafafa;
+}
+
+/* Styles for Admin Content */
+.admin__content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+/* Styles for Admin Content Header */
+.admin__content-header h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styles for Admin Content Body */
+.admin__content-body label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.admin__content-body input[type="text"],
+.admin__content-body textarea,
+.admin__content-body select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease; /* Add transition for border-color */
+}
+
+.admin__content-body textarea {
+  height: 100px;
+}
+
+.admin__content-body select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px; /* Add padding */
+  background-color: #fff; /* Add background color */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border-radius */
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Add transitions */
+}
+
+.admin__content-body select:hover,
+.admin__content-body select:focus {
+  border-color: coral; /* Change border color on hover/focus */
+}
+
+.admin__content-body option {
+  background-color: #fff; /* Add background color for options */
+  transition: background-color 0.3s ease; /* Add transition */
+}
+
+.admin__content-body option:hover {
+  background-color: coral; /* Change background color on hover */
+}
+
+.admin__content-body button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add transition for background-color */
+}
+
+.admin__content-body button[type="submit"]:hover {
+  background-color: #0056b3;
+  animation: buttonHover 0.3s ease; /* Add animation on hover */
+}
+
+/* Keyframes for button hover animation */
+@keyframes buttonHover {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}

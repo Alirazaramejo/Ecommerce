@@ -1,0 +1,34 @@
+.common__section {
+    background: linear-gradient(rgba(0,0,0,0.562), rgba(0,0,0,0.562)), url("../assets/images/hero-img.png") no-repeat center center;
+    background-size: cover;
+    height: 200px; /* This seems quite small compared to the padding, consider adjusting */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; /* Adjusted padding value */
+}
+
+.common__section h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:768px) {
+    .common__section{
+        height: 60px;
+        padding: 50px 0px;
+    }
+    .common__section h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .common__section{
+        height: 40px;
+        padding: 30px 0px;
+    }
+    .common__section h1{
+        font-size: 1.2rem;
+    }
+}
